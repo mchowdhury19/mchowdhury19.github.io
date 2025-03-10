@@ -1,12 +1,13 @@
-/* Link Styles */
 a {
   color: blue;
   text-decoration: none;
 }
+
 a: hover {
   color: red;
-  text-decoration: none;
+  text-decoration: none; 
 }
+
 
 body {
   background: linear-gradient(to bottom right, #FFF9CE, #FFE5F1);
