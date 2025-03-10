@@ -1,10 +1,6 @@
-/* Cascading stylesheet for the website */
-
-/* Text inside these asterisks and slashes are comments for humans */
-
 a {
   color: blue;
-  text-decoration: none; /* no underlines on links */
+  text-decoration: none;
 }
 
 a: hover {
@@ -13,15 +9,10 @@ a: hover {
 }
 
 body {
-  /* Example: Soft two-color gradient background */
   background: linear-gradient(45deg, #2193b0, #6dd5ed);
-  
-  /* text color, font, alignment */
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  
-  /* remove browser default spacing */
   margin: 0;
   padding: 0;
 }
@@ -37,9 +28,7 @@ h1 {
 }
 
 h2 {
-  /* fixed the missing semicolon */
   color: #075AAB;
-  
   margin-bottom: 2.5rem;
   margin-top: 2.5rem;
 }
@@ -63,10 +52,8 @@ hr {
   margin-top: 3rem;
 }
 
-/* this controls how the bullet points in the resume page look */
 ul {
   display: table;
   margin: 0 auto;
   text-align: left;
 }
-
